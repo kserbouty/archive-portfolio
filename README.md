@@ -16,7 +16,7 @@ Prototype of my [portfolio](https://github.com/kserbouty/portfolio) in order to 
 
 ### Features
 
-- Multi-lingual website (english and french supported).
+- Multilingual website (english and french supported).
 - Responsive design with media queries.
 - Minify resources with Gulp.
 
