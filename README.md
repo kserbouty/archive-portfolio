@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Prototype of my [portfolio](https://github.com/kserbouty/portfolio) to practice frontend without framework.
+Prototype of my [portfolio](https://github.com/kserbouty/portfolio) in order to practice frontend.
 
 ### Features
 
