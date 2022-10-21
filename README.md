@@ -1,20 +1,6 @@
-# Portfolio Archive
+# Portfolio (Prototype)
 
-- [Portfolio Archive](#portfolio-archive)
-  - [Introduction](#introduction)
-    - [Features](#features)
-  - [Installation](#installation)
-    - [Requirements](#requirements)
-    - [Dockerfile](#dockerfile)
-  - [Configuration](#configuration)
-  - [Authors](#authors)
-  - [License](#license)
-
-## Introduction
-
-Prototype of my [portfolio](https://github.com/kserbouty/portfolio) in order to practice frontend.
-
-### Features
+## Features
 
 - Multilingual website (english and french supported).
 - Responsive design with media queries.
