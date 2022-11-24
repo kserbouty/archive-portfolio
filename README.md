@@ -1,55 +1,74 @@
-# Portfolio (Prototype)
+# Portfolio (archive)
 
-## Features
+Responsive layout with CSS and media queries.
 
-- Multilingual website (english and french supported).
-- Responsive design with media queries.
-- Minify resources with Gulp.
+---
+
+## Requirements
+
+- Node.js 12+
+- Gulp 4+
 
 ## Installation
 
-### Requirements
-
-- Node >=16 with npm
-- Docker (optional)
-
-### Dockerfile
-
-Build the image
+Clone the repository
 
 ```bash
-docker build -t archive/portfolio .
+git clone https://github.com/kserbouty/archive-portfolio.git
 ```
 
-Run your container on <http://localhost:3000/>
+Switch to the repository folder
 
 ```bash
-docker run -d -p 3000:80/tcp archive/portfolio
+cd archive-portfolio
 ```
 
-## Configuration
-
-Install dependencies
+Install all the dependencies using npm
 
 ```bash
 npm install
 ```
 
-Install the gulp command line utility
+## Docker
+
+To install with Docker, run the following command:
+
+```bash
+docker compose up -d --build
+```
+
+The interface can be accessed at <http://localhost:8000>
+
+## Gulp
+
+Install [gulp-cli](https://www.npmjs.com/package/gulp-cli)
 
 ```bash
 npm install --global gulp-cli
 ```
 
-Run gulpfile.js to minify resources if needed
+Optimize resources when modified
 
 ```bash
 gulp
 ```
 
-## Authors
+---
 
-Karim Serbouty
+## Dependencies
+
+- [gulp](https://www.npmjs.com/package/gulp) - Manage plugins for [gulp.js](https://gulpjs.com/)
+- [gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css) - Minify CSS
+- [gulp-concat](https://www.npmjs.com/package/gulp-concat) - Concatenate files
+- [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images
+- [gulp-terser](https://www.npmjs.com/package/gulp-terser) - Minify JavaScript
+
+## Folders
+
+- `public` - Contains the index.html with optimize resources
+- `resources` - Contains scripts used for development
+
+---
 
 ## License
 
