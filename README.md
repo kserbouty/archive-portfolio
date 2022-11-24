@@ -7,7 +7,6 @@ Responsive layout with CSS and media queries.
 ## Requirements
 
 - Node.js 12+
-- Gulp 4+
 
 ## Installation
 
