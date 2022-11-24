@@ -30,13 +30,13 @@ npm install
 
 ## Docker
 
-To install with Docker, run the following command:
+To install with Docker, run following command:
 
 ```bash
 docker compose up -d --build
 ```
 
-The interface can be accessed at <http://localhost:8000>
+The interface can be accessed at <http://localhost:8000>.
 
 ## Gulp
 
@@ -64,7 +64,7 @@ gulp
 
 ## Folders
 
-- `public` - Contains the index.html with optimize resources
+- `public` - Contains the index.html with optimized resources
 - `resources` - Contains scripts used for development
 
 ---
