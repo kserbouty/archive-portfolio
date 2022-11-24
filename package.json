@@ -1,8 +1,8 @@
 {
-  "name": "portfolio-archive",
-  "homepage": "https://github.com/kserbouty/portfolio-archive#readme",
+  "name": "archive-portfolio",
+  "homepage": "https://github.com/kserbouty/archive-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/kserbouty/portfolio-archive/issues",
+    "url": "https://github.com/kserbouty/archive-portfolio/issues",
     "email": "kserbouty.dev@protonmail.com"
   },
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kserbouty/portfolio-archive.git"
+    "url": "https://github.com/kserbouty/archive-portfolio.git"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
