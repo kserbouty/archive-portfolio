@@ -22,23 +22,27 @@ Switch to the repository folder
 cd archive-portfolio
 ```
 
-Install all the dependencies using npm
-
-```bash
-npm install
-```
+The index.html is available in the public directory.
 
 ## Docker
 
 To install with Docker, run following command:
 
 ```bash
+git clone https://github.com/kserbouty/archive-portfolio.git
+cd archive-portfolio
 docker compose up -d --build
 ```
 
 The interface can be accessed at <http://localhost:8000>.
 
-## Gulp
+---
+
+Install all the dependencies using npm
+
+```bash
+npm install
+```
 
 Install [gulp-cli](https://www.npmjs.com/package/gulp-cli)
 
