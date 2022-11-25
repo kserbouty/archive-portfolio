@@ -4,7 +4,7 @@ services:
 
   web:
     image: nginx:1.23-alpine
-    container_name: web-server
+    container_name: web
     restart: always
     ports:
       - '8000:80'
