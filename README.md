@@ -26,7 +26,7 @@ The index.html is available in the public directory.
 
 ## Docker
 
-To install with Docker, run following command:
+To install with Docker, run following commands:
 
 ```bash
 git clone https://github.com/kserbouty/archive-portfolio.git
@@ -38,13 +38,15 @@ The interface can be accessed at <http://localhost:8000>.
 
 ---
 
+## Gulp
+
 Install all the dependencies using npm
 
 ```bash
 npm install
 ```
 
-Install [gulp-cli](https://www.npmjs.com/package/gulp-cli)
+Install [gulp-cli](https://www.npmjs.com/package/gulp-cli) globally
 
 ```bash
 npm install --global gulp-cli
@@ -54,6 +56,11 @@ Optimize resources when modified
 
 ```bash
 gulp
+```
+Uninstall [gulp-cli](https://www.npmjs.com/package/gulp-cli) globally
+
+```bash
+npm uninstall --global gulp-cli
 ```
 
 ---
