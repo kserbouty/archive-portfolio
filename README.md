@@ -57,6 +57,7 @@ Optimize resources when modified
 ```bash
 gulp
 ```
+
 Uninstall [gulp-cli](https://www.npmjs.com/package/gulp-cli) globally
 
 ```bash
